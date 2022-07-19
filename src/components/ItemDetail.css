@@ -1,0 +1,120 @@
+* {
+    Margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #F0F0F3;
+
+}
+
+.cardSuperior {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+
+.cardPadre {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    margin: 2rem;
+    height: fit-content;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.cardPadre-detail {
+    display: flex;
+    padding: 2rem;
+    margin: 2rem;
+    background: #F0F0F3;
+    box-shadow: -5px -5px 20px #ffffff, 5px 5px 20px rgb(174 174 192 / 50%);
+    border-radius: 30px;
+    border-color: transparent;
+    width: 80%;
+    align-self: center;
+    flex-direction: row;
+    justify-content: space-around;
+    position: absolute;
+    left: 5%;
+}
+
+.card-detail {
+    display: flex;
+    padding: 2rem 1rem;
+    padding-right: 2rem;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+   
+}
+
+.cardHijo {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    flex-direction: row;
+    align-content: space-around;
+    align-items: center;
+
+}
+
+.cardHijo-detail {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 10vh;
+}
+
+.card{
+    background: #F0F0F3;
+box-shadow: -5px -5px 20px #FFFFFF, 5px 5px 20px rgba(174, 174, 192, 0.5);
+border-radius: 10px;
+border-color: transparent;
+
+}
+
+h3{
+    margin: 8px;
+}
+
+h6{
+    color: #677278;
+    text-align: start;
+}
+
+
+
+
+
+@media screen and (max-width: 1000px){
+
+    .cardHijo {
+        display: flex;
+        justify-content: space-between;
+        align-content: space-between;
+        align-items: center;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+
+    .cardHijo-detail {
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        justify-content: flex-start;
+        align-items: center;
+        padding-left: 0vh;
+    }
+}
+
