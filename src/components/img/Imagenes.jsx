@@ -1,14 +1,12 @@
-import React from "react";
-import Planta1 from "./planta1.jpg";
-import Planta2 from "./planta2.jpg";
-import Planta3 from "./planta3.jpg";
-
+import Plant1 from "./plant-1.jpg";
+import Plant2 from "./plant-2.jpg";
+import Plant3 from "./plant-3.jpg";
 
 const Imagenes = [
 
-   {"img": Planta1},
-   {"img": Planta2},
-   {"img": Planta3}
+   {"img": Plant1},
+   {"img": Plant2},
+   {"img": Plant3}
 
 ]
 
