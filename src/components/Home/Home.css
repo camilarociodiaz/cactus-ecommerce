@@ -1,6 +1,4 @@
 .homeButton {
-
-    
     position: absolute;
     top: 64%;
     left: 43%;
@@ -12,19 +10,14 @@
     color: #485054;
     background: #F0F0F3;
     border-color: transparent;
-  
-box-shadow: -2px -2px 2px rgba(255, 255, 255, 0.4), 5px 5px 10px rgba(174, 174, 192, 0.2), inset -2px -2px 4px rgba(0, 0, 0, 0.1), inset 2px 2px 4px #FFFFFF;
-border-radius: 20px;
-
-
+    box-shadow: -2px -2px 2px rgba(255, 255, 255, 0.4), 5px 5px 10px rgba(174, 174, 192, 0.2), inset -2px -2px 4px rgba(0, 0, 0, 0.1), inset 2px 2px 4px #FFFFFF;
+    border-radius: 20px;
 };
 
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1000px) {
 
     .homeButton {
-
-    
         position: absolute;
         top: 30%;
         left: 45%;
@@ -36,10 +29,7 @@ border-radius: 20px;
         color: #485054;
         background: #F0F0F3;
         border-color: transparent;
-      
-    box-shadow: -2px -2px 2px rgba(255, 255, 255, 0.4), 5px 5px 10px rgba(174, 174, 192, 0.2), inset -2px -2px 4px rgba(0, 0, 0, 0.1), inset 2px 2px 4px #FFFFFF;
-    border-radius: 20px;
-    
-    
+        box-shadow: -2px -2px 2px rgba(255, 255, 255, 0.4), 5px 5px 10px rgba(174, 174, 192, 0.2), inset -2px -2px 4px rgba(0, 0, 0, 0.1), inset 2px 2px 4px #FFFFFF;
+        border-radius: 20px;
     };
 }
